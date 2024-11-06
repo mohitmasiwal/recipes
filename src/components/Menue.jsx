@@ -70,7 +70,7 @@ const Menue = ({ card, setCart, cart }) => {
                 <div className="flex justify-between text-xs lg:text-lg">
                   <Link to={`/detail/${itm.id}`}>
                     <button className="px-4 py-2 bg-slate-500 text-white rounded-md font-bold hover:bg-slate-900 transition-colors">
-                     Recipe
+                       Recipe
                     </button>
                   </Link>
                   <button onClick={() => tocart(itm)} className="px-4 py-2 bg-slate-500 text-white rounded-md font-bold hover:bg-slate-900 transition-colors">
