@@ -57,7 +57,7 @@ const Product = ({ cart, setCart }) => {
                             return (
                                 <div key={index} className="flex flex-col items-center pb-5 w-[300px]">
                                     <img className="rounded-full h-[150px] w-[150px] sm:h-[250px] sm:w-[250px] hover:scale-95" src={product.image} alt={product.title} />
-                                    <h1 className="mt-2 sm:mt-4 font-bold sm:text-2xl text-gray-400 mb-8 text-center hover:text-gray-700">{product.name}</h1>
+                                    <h1 className="mt-2 lg:mt-4 font-bold lg:text-2xl text-gray-400 mb-8 text-center hover:text-gray-700">{product.name}</h1>
                                 </div>
                             );
                         })}

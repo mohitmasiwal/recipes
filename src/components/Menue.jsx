@@ -67,14 +67,14 @@ const Menue = ({ card, setCart, cart }) => {
                   <h1 className="animate-bounce text-xs">₹ {itm.reviewCount * 4}</h1>
                   <h4 className="text-sm sm:text-lg">Calories Per Serving: {itm.caloriesPerServing}</h4>
                 </div>
-                <div className="flex justify-between text-xs sm:text-lg">
+                <div className="flex justify-between text-xs lg:text-lg">
                   <Link to={`/detail/${itm.id}`}>
                     <button className="px-4 py-2 bg-slate-500 text-white rounded-md font-bold hover:bg-slate-900 transition-colors">
-                      View Recipe
+                     Recipe
                     </button>
                   </Link>
                   <button onClick={() => tocart(itm)} className="px-4 py-2 bg-slate-500 text-white rounded-md font-bold hover:bg-slate-900 transition-colors">
-                    Add to cart  
+                   cart  
                   </button>
                 </div>
               </div>
